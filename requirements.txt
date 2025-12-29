@@ -1,0 +1,9 @@
+# Application requirements
+streamlit>=1.18
+xmlschema>=2.0.0
+lxml>=4.9
+paramiko>=2.11  # optional (SFTP support)
+# Core utilities used by the banking module (keep these if you use CLI/GUI)
+PyQt5>=5.15
+# Testing
+pytest>=7.0
